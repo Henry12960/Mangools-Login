@@ -5,67 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In | Mangools</title>
-    <link rel="shortcut icon" href="/Mangools-Login/Images/Favicon.png" type="image/x-icon"/>
-    <link href="/Mangools-Login/CSS/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-    <header>
-
-        <!--"Navbar" image from mangools-->
-
+    <div class="top-content">
         <div class="navbar">
-            <a href="https://mangools.com/">
-                <img src="/Mangools-Login/Images/Logo.svg" alt="Mangools-Logo">
-            </a>
+            <a href="https://mangools.com"><img src="Images/Logo.svg"></a>
         </div>
-    </header>
 
-    <!--Login Section for title, inputs and others-->
-
-    <section>
-
-        <!--Main Title-->
-
-        <div class="login-title">
+        <div class="top-text">
             <h1>Good to see you again</h1>
         </div>
 
-        <!--Login Inputs-->
+        <div class="input">
+            <form>
+                <div>
+                    <div class="input-label">
+                        <label for="email">Your email</label>
+                    </div>
 
-        <div class="login-input">
-            <div>
-                <div class="login-label">
-                    <label class="login-label-text" for="email-input">Your email</label>
-                </div>
-                
-                <input type="email" placeholder="e.g. john@doe.com">
-            </div>
-
-            <br>
-
-            <div>
-                <div class="login-label">
-                    <label class="login-label-text" for="password-input">Your password</label>
+                    <div class="input-form">
+                        <input id="email" required type="email" placeholder="e.g. john@doe.com">
+                    </div>
                 </div>
 
-                <input type="password" placeholder="e.g. ilovemangools123">
-            </div>
+                <br>
 
-            <br>
+                <div>
+                    <div class="input-label">
+                        <label for="password">Your password</label>
+                    </div>
 
-            <!--Login Button Submit-->
+                    <div class="input-form">
+                        <div class="input-password">
+                            <input id="password" required type="password" placeholder="e.g. ilovemangools123">
+                        </div>
+                    </div>
+                </div>
 
-            <div>
-                <button type="submit">Sign in</button>
-            </div>
+                <br>
 
-            <!--Login Links-->
+                <div class="button-form">
+                    <button>Sign In</button>
+                </div>
 
-            <p>
-                <a href="#">Don't have an account?</a>
-                <a href="#">Forgot password?</a>
-            </p>
+                <div class="left-text">
+                    <div class="no-account">
+                        <a href="#">Don't have an account?</a>
+                    </div>
+
+                    <div class="no-password">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                </div>
+            </form>
         </div>
-    </section>
+    </div>
+
+    <div class="left-content">
+        <div class="i-1">
+            <div>
+                <a href="#"><img src="https://mangools.com/assets/app-logos/kwfinder-icon-a28eaf309a7546b9bbf69275a5b9ecf0502e4aa5d489c479521d47a5b1040faf.svg"></a>
+
+                <a class="t-1" href="#"><b>KWFinder</b></a>
+            </div>
+        </div>
+
+        <div class="i-2">
+            <div>
+                <a href="#"><img src="https://mangools.com/assets/app-logos/serpchecker-icon-4fd0201f90df3571b5c096377e8e634bd2f403eb13f2eb8638d0569835baa319.svg"></a>
+
+                <a class="t-2" href="#"><b>SERPChecker</b></a>
+            </div>
+        </div>
+
+        <div class="i-3">
+            <div>
+                <a href="#"><img src="https://mangools.com/assets/app-logos/serpwatcher-icon-42c42e1f486d6f82d29bf2050a9624045e96169e611eb620bb2b2395c64da46e.svg"></a>
+
+                <a class="t-3" href="#"><b>SERPWatcher</b></a>
+            </div>
+        </div>
+
+        <div class="i-4">
+            <div>
+                <a href="#"><img src="https://mangools.com/assets/app-logos/linkminer-icon-061c72595c64c3cc763eb4e2354393cdc3f72d1671336d2a8656e07dee36af93.svg"></a>
+
+                <a class="t-4" href="#"><b>LinkMiner</b></a>
+            </div>
+        </div>
+
+        <div class="i-5">
+            <div>
+                <a href="#"><img src="https://mangools.com/assets/app-logos/siteprofiler-icon-a30260da551de17e9560fa36e6c2279fb32f4d0e4da19d4fcf695195942b28e0.svg"></a>
+
+                <a class="t-5" href="#"><b>SiteProfiler</b></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
