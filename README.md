@@ -13,7 +13,7 @@
 
 > This is a login screen from the site called Mangools, I saw this site and I really liked this screen, so I decided to rewrite it in my format. Currently the site is only responsive with notebooks and above, I decided not to do it for cell phones and tablets out of laziness lol, but if you need or want this adaptation just create an issue and I can help you, I couldn't put all the graphic elements of the original site already that I couldn't get his source, so I made an adaptation to my eye, I hope you like it.
 
-> Altogether it was 2 hours of work in a row doing this, thank you.
+> Altogether it was 2 hours of work in a row doing this, thank you. The entire site has graphic elements on hover, enjoy
 
 ---
 
